@@ -10,3 +10,8 @@ function fish_prompt -d "Write out the prompt"
       (set_color normal ) \n'> '
 end
 
+alias vim=nvim
+abbr --add v vim
+abbr --add gs git status
+abbr --add gd git diff
+abbr --add gdd "git diff | delta --side-by-side"
